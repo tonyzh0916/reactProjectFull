@@ -37,6 +37,10 @@ const post = [
   {id:15, name:'Post 15'},
 ]
 
+app.get('/posts',(req, res)=>{
+  
+})
+
 app.get('/users',(req, res)=>{
   const page = parseInt(req.query.page);
   const limit = parseInt(req.query.limit);
